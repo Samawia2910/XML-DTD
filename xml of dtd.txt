@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LMS>
+   <Course CourseId="CS121" CourseInstructorId="1">
+      <CourseName>A First Course in Database Systems</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS122" CourseInstructorId="2">
+      <CourseName>PF</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS123" CourseInstructorId="3">
+      <CourseName>OOP</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS124" CourseInstructorId="4">
+      <CourseName>DLD</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS125" CourseInstructorId="5">
+      <CourseName>DE</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS126" CourseInstructorId="6">
+      <CourseName>DSA</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS127" CourseInstructorId="7">
+      <CourseName>TAWS</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS128" CourseInstructorId="8">
+      <CourseName>FE</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS129" CourseInstructorId="9">
+      <CourseName>Islamiyat</CourseName>
+      <CreditHrs>1</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Course CourseId="CS130" CourseInstructorId="10">
+      <CourseName>TAFL</CourseName>
+      <CreditHrs>3</CreditHrs>
+      <ContactHrs>16</ContactHrs>
+   </Course>
+   <Instructor InstructorId="1">
+      <FirstName>Samawia</FirstName>
+      <MiddleName />
+      <LastName>Ijaz</LastName>
+      <Designation>Worker</Designation>
+   </Instructor>
+   <Instructor InstructorId="2">
+      <FirstName>Aiemen</FirstName>
+      <MiddleName />
+      <LastName>Altaf</LastName>
+      <Designation>Worker</Designation>
+   </Instructor>
+   <Instructor InstructorId="3">
+      <FirstName>Aqsa</FirstName>
+      <MiddleName />
+      <LastName>Riaz</LastName>
+      <Designation>Worker</Designation>
+   </Instructor>
+   <Instructor InstructorId="4">
+      <FirstName>Malaika</FirstName>
+      <MiddleName />
+      <LastName>Munawar</LastName>
+      <Designation>Worker</Designation>
+   </Instructor>
+   <Instructor InstructorId="5">
+      <FirstName>Aabroo</FirstName>
+      <MiddleName />
+      <LastName>Hamdani</LastName>
+      <Designation>Worker</Designation>
+   </Instructor>
+  <Student RegistrationNumber="2020-CS-124">
+      <FirstName>Samawia</FirstName>
+      <MiddleName />
+      <LastName>Ijaz</LastName>
+      <Address>
+         <City>Lhr</City>
+         <ZipCode>3</ZipCode>
+         <District>Punjab</District>
+      </Address>
+      <GPA>3</GPA>
+   </Student>
+   <Student RegistrationNumber="2020-CS-145">
+      <FirstName>Wasfa</FirstName>
+      <MiddleName />
+      <LastName>Nasir</LastName>
+      <Address>
+         <City>Lhr</City>
+         <ZipCode>3</ZipCode>
+         <District>Punjab</District>
+      </Address>
+      <GPA>3.9</GPA>
+   </Student>
+   <Student RegistrationNumber="2020-CS-148">
+      <FirstName>Aiemen</FirstName>
+      <MiddleName />
+      <LastName>Altaf</LastName>
+      <Address>
+         <City>Lhr</City>
+         <ZipCode>3</ZipCode>
+         <District>Punjab</District>
+      </Address>
+      <GPA>3</GPA>
+   </Student>
+   <Student RegistrationNumber="2020-CS-111">
+      <FirstName>Aqsa</FirstName>
+      <MiddleName />
+      <LastName>Riaz</LastName>
+      <Address>
+         <City>Lhr</City>
+         <ZipCode>3</ZipCode>
+         <District>Punjab</District>
+      </Address>
+      <GPA>3</GPA>
+   </Student>
+   <Student RegistrationNumber="2020-CS-112">
+      <FirstName>Malaika</FirstName>
+      <MiddleName />
+      <LastName>Munawar</LastName>
+      <Address>
+         <City>Lhr</City>
+         <ZipCode>3</ZipCode>
+         <District>Punjab</District>
+      </Address>
+      <GPA>3</GPA>
+   </Student>
+</LMS>

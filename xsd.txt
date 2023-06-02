@@ -1,0 +1,50 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="LMS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Course" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="CourseName"/>
+              <xs:element type="xs:byte" name="CreditHrs"/>
+              <xs:element type="xs:byte" name="ContactHrs"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="CourseId" use="optional"/>
+            <xs:attribute type="xs:byte" name="CourseInstructorId" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Instructor" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="FirstName"/>
+              <xs:element type="xs:string" name="MiddleName"/>
+              <xs:element type="xs:string" name="LastName"/>
+              <xs:element type="xs:string" name="Designation"/>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="InstructorId" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Student" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="FirstName"/>
+              <xs:element type="xs:string" name="MiddleName"/>
+              <xs:element type="xs:string" name="LastName"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="City"/>
+                    <xs:element type="xs:byte" name="ZipCode"/>
+                    <xs:element type="xs:string" name="District"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:float" name="GPA"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="RegistrationNumber" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

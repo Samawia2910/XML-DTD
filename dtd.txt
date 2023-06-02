@@ -1,0 +1,37 @@
+--<?xml version="1.0"?>
+--<Course CourseId="CS145" CourseName="DataBase" CreditHrs="3" ContactHrs="16" CourseInstructorId="1">
+<!DOCTYPE LMS [
+   <!ELEMENT LMS (Course*, Student*, RegisteredCourses*, Instructor*)>
+   <!ELEMENT Course(CourseName,CreditHrs,ContactHrs)>
+   <!ATTLIST Course CourseId #REQUIRED
+                  CourseInstructorId IDREFS #REQUIRED>
+   <!ELEMENT CourseName (#PCDATA)>
+   <!ELEMENT CreditHrs (#PCDATA)>
+   <!ELEMENT ContactHrs (#PCDATA)>
+  
+   <!ELEMENT Student(FirstName, MiddleName, LastName,Address,GPA)>
+   <!ATTLIST Student RegistrationNumber #REQUIRED>
+   <!ELEMENT FirstName (#PCDATA)>
+   <!ELEMENT MiddleName (#PCDATA)>
+   <!ELEMENT LastName (#PCDATA)>
+   <!ELEMENT Address (City, ZipCode and District)>
+   <!ELEMENT City (#PCDATA)>
+   <!ELEMENT ZipCode (#PCDATA)>
+   <!ELEMENT District (#PCDATA)>
+   <!ELEMENT GPA (0 | 1 | 2 | 3 | 4)>
+
+   <!ELEMENT RegisteredCourses( RegistrationDate)>
+   <!ATTLIST RegisteredCourses RegistrationNumber #REQUIRED>
+   <!ATTLIST RegisteredCourses  CourseId #REQUIRED
+                  CourseId IDREFS #REQUIRED>
+   <!ELEMENT  RegistrationDate (#PCDATA)>
+
+   <!ELEMENT  Instructor(FirstName, MiddleName, LastName,Designation)>
+   <!ATTLIST Instructor InstructorId #REQUIRED>
+   <!ELEMENT FirstName (#PCDATA)>
+   <!ELEMENT MiddleName (#PCDATA)>
+   <!ELEMENT LastName (#PCDATA)               
+   <!ELEMENT Designation (#PCDATA) 
+
+
+]>
